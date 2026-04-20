@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Kisham | News Anchor & Content Creator</title>
+  <meta name="description" content="Daniel Kisham — News Anchor, Presenter & Content Creator. Part of the Kimana Chronicles ecosystem.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Orbitron:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Noise grain -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════ TICKER ═══════════════════════════ -->
+  <div class="ticker-bar">
+    <div class="ticker-live">
+      <span class="live-pulse"></span>LIVE
+    </div>
+    <div class="ticker-viewport">
+      <div class="ticker-track" id="tickerTrack">
+        <span>DANIEL KISHAM — NEWS ANCHOR & CONTENT CREATOR</span>
+        <span class="tsep">◆</span>
+        <span>AVAILABLE FOR BROADCAST, DOCUMENTARY & BRAND CONTENT</span>
+        <span class="tsep">◆</span>
+        <span>CALL +254 114 505 194</span>
+        <span class="tsep">◆</span>
+        <span>PART OF THE KIMANA CHRONICLES NETWORK</span>
+        <span class="tsep">◆</span>
+        <span>NEWS REELS · DOCUMENTARIES · CREATIVE ADS · STRATEGY</span>
+        <span class="tsep">◆</span>
+        <span>DANIEL KISHAM — NEWS ANCHOR & CONTENT CREATOR</span>
+        <span class="tsep">◆</span>
+        <span>AVAILABLE FOR BROADCAST, DOCUMENTARY & BRAND CONTENT</span>
+        <span class="tsep">◆</span>
+        <span>CALL +254 114 505 194</span>
+        <span class="tsep">◆</span>
+        <span>PART OF THE KIMANA CHRONICLES NETWORK</span>
+        <span class="tsep">◆</span>
+        <span>NEWS REELS · DOCUMENTARIES · CREATIVE ADS · STRATEGY</span>
+        <span class="tsep">◆</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+  <header class="nav-header" id="navHeader">
+    <nav class="nav-inner">
+
+      <div class="nav-logo">
+        <span class="logo-name">KISHAM</span><span class="logo-tv">TV</span>
+        <span class="logo-sub">NEWS ANCHOR & CONTENT CREATOR</span>
+      </div>
+
+      <button class="nav-burger" id="navBurger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link" data-nav>HOME</a></li>
+        <li><a href="#about" class="nav-link" data-nav>ABOUT</a></li>
+        <li><a href="#vault" class="nav-link" data-nav>MEDIA VAULT</a></li>
+        <li><a href="#services" class="nav-link" data-nav>SERVICES</a></li>
+        <li><a href="#contact" class="nav-link" data-nav>CONTACT</a></li>
+        <li>
+          <a href="https://wa.me/254114505194" class="nav-cta" target="_blank" rel="noopener">
+            HIRE ME
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section class="hero" id="home">
+
+    <!-- Animated BG layers -->
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="hero-glow-1" aria-hidden="true"></div>
+    <div class="hero-glow-2" aria-hidden="true"></div>
+    <div class="hero-scanlines" aria-hidden="true"></div>
+
+    <!-- Corner brackets -->
+    <div class="bracket bracket--tl" aria-hidden="true"></div>
+    <div class="bracket bracket--tr" aria-hidden="true"></div>
+    <div class="bracket bracket--bl" aria-hidden="true"></div>
+    <div class="bracket bracket--br" aria-hidden="true"></div>
+
+    <!-- On-air indicator -->
+    <div class="on-air-badge">
+      <span class="on-air-dot"></span>
+      ON AIR
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-reveal>PRESENTER · CREATOR · STRATEGIST</p>
+
+      <div class="glitch-wrap" data-text="DANIEL KISHAM" data-reveal data-reveal-delay="0.15">
+        <h1 class="hero-name">DANIEL KISHAM</h1>
+      </div>
+
+      <p class="hero-tagline" data-reveal data-reveal-delay="0.3">
+        Crafting narratives that define the culture.<br>
+        From the news desk to the digital frontier.
+      </p>
+
+      <div class="hero-actions" data-reveal data-reveal-delay="0.45">
+        <a href="https://wa.me/254114505194" class="btn-primary" target="_blank" rel="noopener">
+          GET IN TOUCH
+        </a>
+        <a href="#vault" class="btn-outline">EXPLORE VAULT</a>
+      </div>
+    </div>
+
+    <!-- Stat strip -->
+    <div class="hero-stats" data-reveal data-reveal-delay="0.6">
+      <div class="hstat">
+        <span class="hstat-n" data-count="6">0</span>
+        <span class="hstat-l">YEARS ON AIR</span>
+      </div>
+      <div class="hstat-sep"></div>
+      <div class="hstat">
+        <span class="hstat-n" data-count="200">0</span>
+        <span class="hstat-l">SEGMENTS PRODUCED</span>
+      </div>
+      <div class="hstat-sep"></div>
+      <div class="hstat">
+        <span class="hstat-n" data-count="3">0</span>
+        <span class="hstat-l">CONTENT VERTICALS</span>
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="scroll-cue">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════════════ MARQUEE ═══════════════════════════ -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>NEWS ANCHORING</span><span class="msep">◆</span>
+      <span>DOCUMENTARY</span><span class="msep">◆</span>
+      <span>BROADCAST JOURNALISM</span><span class="msep">◆</span>
+      <span>BRAND CONTENT</span><span class="msep">◆</span>
+      <span>CREATIVE ADS</span><span class="msep">◆</span>
+      <span>CONTENT STRATEGY</span><span class="msep">◆</span>
+      <span>KIMANA CHRONICLES</span><span class="msep">◆</span>
+      <span>ON-CAMERA TALENT</span><span class="msep">◆</span>
+      <span>NEWS ANCHORING</span><span class="msep">◆</span>
+      <span>DOCUMENTARY</span><span class="msep">◆</span>
+      <span>BROADCAST JOURNALISM</span><span class="msep">◆</span>
+      <span>BRAND CONTENT</span><span class="msep">◆</span>
+      <span>CREATIVE ADS</span><span class="msep">◆</span>
+      <span>CONTENT STRATEGY</span><span class="msep">◆</span>
+      <span>KIMANA CHRONICLES</span><span class="msep">◆</span>
+      <span>ON-CAMERA TALENT</span><span class="msep">◆</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+  <section class="about-section" id="about">
+
+    <div class="about-grid">
+
+      <!-- Visual card -->
+      <div class="about-visual" data-reveal>
+        <div class="about-card">
+          <div class="about-card-bar"></div>
+          <div class="about-card-glow"></div>
+          <div class="about-card-monogram">DK</div>
+          <div class="about-card-info">
+            <div class="about-card-name">DANIEL KISHAM</div>
+            <div class="about-card-role">NEWS ANCHOR · KIMANA CHRONICLES</div>
+            <div class="about-card-contact">+254 114 505 194</div>
+          </div>
+          <!-- floating badge -->
+          <div class="about-float-badge">
+            <span class="about-float-dot"></span>
+            AVAILABLE FOR HIRE
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text">
+        <p class="section-label" data-reveal>WHO IS DANIEL KISHAM</p>
+        <h2 class="section-title" data-reveal data-reveal-delay="0.1">
+          The Voice<br><span class="accent-text">Behind</span><br>the Story.
+        </h2>
+        <p class="about-body" data-reveal data-reveal-delay="0.2">
+          Daniel Kisham is a seasoned news anchor, presenter, and content strategist operating at the intersection of broadcast journalism and digital media creation. He brings the discipline of the newsroom and the creative energy of the studio into every single project.
+        </p>
+        <p class="about-body" data-reveal data-reveal-delay="0.28">
+          Embedded within the Kimana Chronicles ecosystem, Daniel is the on-camera voice that bridges community storytelling and professional broadcast — giving the Kimana narrative a face, a voice, and a platform.
+        </p>
+
+        <div class="skills-grid" data-reveal data-reveal-delay="0.36">
+          <div class="skill-chip">News Presentation</div>
+          <div class="skill-chip">Script Writing</div>
+          <div class="skill-chip">Documentary Direction</div>
+          <div class="skill-chip">Brand Strategy</div>
+          <div class="skill-chip">On-Camera Talent</div>
+          <div class="skill-chip">Content Production</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ MEDIA VAULT ═══════════════════════════ -->
+  <section class="vault-section" id="vault">
+
+    <div class="vault-bg-text" aria-hidden="true">VAULT</div>
+
+    <div class="vault-header">
+      <p class="section-label" data-reveal>CONTENT PORTFOLIO</p>
+      <h2 class="section-title" data-reveal data-reveal-delay="0.1">
+        Media <span class="accent-text">Vault.</span>
+      </h2>
+      <p class="vault-intro" data-reveal data-reveal-delay="0.2">
+        Three content verticals. One voice. Broadcast-quality production for every platform.
+      </p>
+    </div>
+
+    <div class="vault-grid">
+
+      <div class="vault-card" data-reveal data-reveal-delay="0.05">
+        <div class="vault-card-num">01</div>
+        <div class="vault-card-icon">📺</div>
+        <h3 class="vault-card-title">NEWS REELS</h3>
+        <p class="vault-card-desc">
+          Live coverage, breaking news, and curated news segments produced for broadcast and digital platforms. Delivered with precision and authority.
+        </p>
+        <div class="vault-card-tags">
+          <span>BROADCAST</span>
+          <span>LIVE</span>
+          <span>DIGITAL</span>
+        </div>
+        <div class="vault-card-arrow">→</div>
+        <div class="vault-card-glow"></div>
+      </div>
+
+      <div class="vault-card vault-card--mid" data-reveal data-reveal-delay="0.15">
+        <div class="vault-card-num">02</div>
+        <div class="vault-card-icon">🎬</div>
+        <h3 class="vault-card-title">DOCUMENTARIES</h3>
+        <p class="vault-card-desc">
+          In-depth, long-form storytelling exploring culture, community, identity, and the lives shaping the Kimana narrative — told with cinematic honesty.
+        </p>
+        <div class="vault-card-tags">
+          <span>LONG-FORM</span>
+          <span>CULTURE</span>
+          <span>COMMUNITY</span>
+        </div>
+        <div class="vault-card-arrow">→</div>
+        <div class="vault-card-glow"></div>
+      </div>
+
+      <div class="vault-card" data-reveal data-reveal-delay="0.25">
+        <div class="vault-card-num">03</div>
+        <div class="vault-card-icon">⚡</div>
+        <h3 class="vault-card-title">CREATIVE ADS</h3>
+        <p class="vault-card-desc">
+          High-impact brand content that blends journalistic credibility with creative production values. Campaigns that get remembered and drive results.
+        </p>
+        <div class="vault-card-tags">
+          <span>COMMERCIAL</span>
+          <span>BRAND</span>
+          <span>STRATEGY</span>
+        </div>
+        <div class="vault-card-arrow">→</div>
+        <div class="vault-card-glow"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ SERVICES ═══════════════════════════ -->
+  <section class="services-section" id="services">
+
+    <div class="services-inner">
+
+      <div class="services-header">
+        <p class="section-label" data-reveal>WHAT I OFFER</p>
+        <h2 class="section-title" data-reveal data-reveal-delay="0.1">
+          Services &<br><span class="accent-text">Packages.</span>
+        </h2>
+      </div>
+
+      <div class="services-list">
+
+        <div class="service-row" data-reveal data-reveal-delay="0.05">
+          <div class="service-row-num">01</div>
+          <div class="service-row-content">
+            <h3>Anchor-for-Hire</h3>
+            <p>Professional news presentation for your channel, event, or platform. Studio or field — I bring the broadcast energy wherever it's needed.</p>
+          </div>
+          <div class="service-row-tags">
+            <span>STUDIO</span>
+            <span>FIELD</span>
+          </div>
+        </div>
+
+        <div class="service-row" data-reveal data-reveal-delay="0.12">
+          <div class="service-row-num">02</div>
+          <div class="service-row-content">
+            <h3>Documentary Production</h3>
+            <p>From research and scripting to on-camera presentation and final cut direction. Full-service documentary packages for brands and organisations.</p>
+          </div>
+          <div class="service-row-tags">
+            <span>FULL-SERVICE</span>
+            <span>SCRIPTED</span>
+          </div>
+        </div>
+
+        <div class="service-row" data-reveal data-reveal-delay="0.19">
+          <div class="service-row-num">03</div>
+          <div class="service-row-content">
+            <h3>Brand Content Strategy</h3>
+            <p>Building a content ecosystem for your brand — scripted videos, social reels, spokesperson work, and editorial direction that builds audience trust.</p>
+          </div>
+          <div class="service-row-tags">
+            <span>BRAND</span>
+            <span>SOCIAL</span>
+          </div>
+        </div>
+
+        <div class="service-row" data-reveal data-reveal-delay="0.26">
+          <div class="service-row-num">04</div>
+          <div class="service-row-content">
+            <h3>Event Coverage & MCing</h3>
+            <p>Live event anchoring, corporate MC, and real-time digital coverage for launches, forums, and community events across Kajiado and beyond.</p>
+          </div>
+          <div class="service-row-tags">
+            <span>LIVE</span>
+            <span>EVENTS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+  <section class="contact-section" id="contact">
+
+    <div class="contact-bg-glow" aria-hidden="true"></div>
+    <div class="contact-grid-bg" aria-hidden="true"></div>
+
+    <div class="contact-inner">
+
+      <p class="section-label" data-reveal>LET'S WORK TOGETHER</p>
+      <h2 class="contact-headline" data-reveal data-reveal-delay="0.1">
+        Ready to<br>
+        <span class="accent-text glitch-wrap-sm" data-text="Go Live.">Go Live.</span>
+      </h2>
+      <p class="contact-body" data-reveal data-reveal-delay="0.2">
+        Whether it's a brand campaign, a documentary project, live event anchoring, or simply putting a professional voice on your content — reach out and let's build something that gets seen.
+      </p>
+
+      <div class="contact-actions" data-reveal data-reveal-delay="0.3">
+        <a href="https://wa.me/254114505194" class="btn-primary btn-primary--lg" target="_blank" rel="noopener">
+          WHATSAPP ME NOW
+        </a>
+        <a href="tel:+254114505194" class="btn-outline">CALL DIRECT</a>
+      </div>
+
+      <div class="contact-cards" data-reveal data-reveal-delay="0.42">
+        <div class="contact-card">
+          <span class="contact-card-label">PHONE / WHATSAPP</span>
+          <span class="contact-card-value">+254 114 505 194</span>
+        </div>
+        <div class="contact-card">
+          <span class="contact-card-label">NETWORK</span>
+          <span class="contact-card-value">Kimana Chronicles</span>
+        </div>
+        <div class="contact-card">
+          <span class="contact-card-label">LOCATION</span>
+          <span class="contact-card-value">Kimana Town, Kajiado · Kenya</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <div class="footer-logo">KISHAM<span>TV</span></div>
+        <p class="footer-tagline">News Anchor · Presenter · Content Creator<br>Part of the Kimana Chronicles Network.</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#vault">Media Vault</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-network">
+        <span class="footer-network-label">PART OF</span>
+        <a href="../index.html" class="footer-network-link">KIMANA CHRONICLES →</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 DANIEL KISHAM · ALL RIGHTS RESERVED</span>
+      <span>KIMANA TOWN · KAJIADO · KENYA</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
